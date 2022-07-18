@@ -1,0 +1,741 @@
+{
+    "keyboardMappings": [
+        {
+            "class": "ClassKeyboardCurve",
+            "data": {
+                "key": 66,
+                "secondKey": 0,
+                "curve": [
+                    {
+                        "x": 8515,
+                        "y": 6219,
+                        "timing": 0
+                    },
+                    {
+                        "x": 8515,
+                        "y": 6219,
+                        "timing": 85
+                    }
+                ],
+                "extraData": "",
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 81,
+                "secondKey": 0,
+                "point": {
+                    "x": 6250,
+                    "y": 4063
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 87,
+                "secondKey": 0,
+                "point": {
+                    "x": 546,
+                    "y": 3668
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 69,
+                "secondKey": 0,
+                "point": {
+                    "x": 9334,
+                    "y": 361
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 82,
+                "secondKey": 0,
+                "point": {
+                    "x": 8141,
+                    "y": 2111
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 84,
+                "secondKey": 0,
+                "point": {
+                    "x": 660,
+                    "y": 530
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 89,
+                "secondKey": 0,
+                "point": {
+                    "x": 6897,
+                    "y": 5677
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 85,
+                "secondKey": 0,
+                "point": {
+                    "x": 6206,
+                    "y": 7099
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 73,
+                "secondKey": 0,
+                "point": {
+                    "x": 286,
+                    "y": 4221
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 79,
+                "secondKey": 0,
+                "point": {
+                    "x": 2214,
+                    "y": 4142
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 83,
+                "secondKey": 0,
+                "point": {
+                    "x": 1491,
+                    "y": 5474
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 68,
+                "secondKey": 0,
+                "point": {
+                    "x": 2284,
+                    "y": 7122
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 70,
+                "secondKey": 0,
+                "point": {
+                    "x": 1060,
+                    "y": 8363
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 71,
+                "secondKey": 0,
+                "point": {
+                    "x": 2557,
+                    "y": 8871
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 80,
+                "secondKey": 0,
+                "point": {
+                    "x": 241,
+                    "y": 5982
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 49,
+                "secondKey": 0,
+                "point": {
+                    "x": 3807,
+                    "y": 2641
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 50,
+                "secondKey": 0,
+                "point": {
+                    "x": 4816,
+                    "y": 2765
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 51,
+                "secondKey": 0,
+                "point": {
+                    "x": 5996,
+                    "y": 2630
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 52,
+                "secondKey": 0,
+                "point": {
+                    "x": 3725,
+                    "y": 6512
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 76,
+                "secondKey": 0,
+                "point": {
+                    "x": 584,
+                    "y": 7065
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 72,
+                "secondKey": 0,
+                "point": {
+                    "x": 7957,
+                    "y": 8713
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 74,
+                "secondKey": 0,
+                "point": {
+                    "x": 3991,
+                    "y": 9368
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 75,
+                "secondKey": 0,
+                "point": {
+                    "x": 2081,
+                    "y": 497
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 65,
+                "secondKey": 0,
+                "point": {
+                    "x": 9220,
+                    "y": 9323
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardCurve",
+            "data": {
+                "key": 186,
+                "secondKey": 0,
+                "curve": [
+                    {
+                        "x": 7322,
+                        "y": 2720,
+                        "timing": 0
+                    },
+                    {
+                        "x": 7322,
+                        "y": 2720,
+                        "timing": 83
+                    }
+                ],
+                "extraData": "",
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "class": "ClassKeyboardCurve",
+            "data": {
+                "key": 222,
+                "secondKey": 0,
+                "curve": [
+                    {
+                        "x": 5565,
+                        "y": 9334,
+                        "timing": 0
+                    },
+                    {
+                        "x": 5565,
+                        "y": 9334,
+                        "timing": 90
+                    }
+                ],
+                "extraData": "",
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 90,
+                "secondKey": 0,
+                "point": {
+                    "x": 4981,
+                    "y": 9447
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardPoint",
+            "data": {
+                "key": 53,
+                "secondKey": 0,
+                "point": {
+                    "x": 4816,
+                    "y": 6727
+                },
+                "type": 0,
+                "downDuration": 0,
+                "upDuration": 0,
+                "downDurationEx": 0,
+                "upDurationEx": 0,
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "extraData": ""
+            }
+        },
+        {
+            "class": "ClassKeyboardCurve",
+            "data": {
+                "key": 88,
+                "secondKey": 0,
+                "curve": [
+                    {
+                        "x": 9353,
+                        "y": 1061,
+                        "timing": 0
+                    },
+                    {
+                        "x": 9353,
+                        "y": 1061,
+                        "timing": 99
+                    }
+                ],
+                "extraData": "",
+                "description": "",
+                "moreDescription": "",
+                "hintVisible": true,
+                "hintOffset": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    ],
+    "configInfo": {
+        "version": 0,
+        "versionMessage": "",
+        "packageNameType": 0,
+        "packageNamePattern": "com.hypergryph.arknights",
+        "resolutionType": 1,
+        "resolutionPattern": {
+            "width": 1600,
+            "height": 900
+        },
+        "priority": 0
+    },
+    "keyboardConfig": {
+        "mouseCenter": {
+            "x": 5000,
+            "y": 5000
+        },
+        "mouseScrollType": 0,
+        "discType": 0,
+        "advertising": false,
+        "advertiseDuration": 5000,
+        "advertiseText": "",
+        "cancelPoint": {
+            "x": 0,
+            "y": 0
+        },
+        "cancelKey": 0,
+        "cursor": "lolCursor"
+    }
+}
