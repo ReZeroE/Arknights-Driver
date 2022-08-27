@@ -13,15 +13,27 @@ import subprocess
 import json
 import random
 
+from konosuba import KonosubaModule
+from honkai import honkaiModule
+
+EXECUTION_TIME = 7
+RELOAD_BASE = True
+GRIND_RESOURCES = False
+
+RUN_ARKNIGHTS = True
+RUN_KONOSUBA = True
+RUN_HONKAI = True
+
+keyboard.FAILSAFE = False
 
 class ArknightsModule:
-    def __init__(self, stamina=None):
+    def __init__(self, stamina=0):
 
         self.initial_run = True
 
-        self.BUFFER_SHORT = 3
-        self.BUFFER_LONG = 60
-        self.BUFFER_TIME = 10
+        self.BUFFER_SHORT = 10
+        self.BUFFER_LONG = 80
+        self.BUFFER_TIME = 30
 
         self.stamina = stamina
         self.game_exe = 'C:\LD Player\LDPlayer\dnplayer.exe'
@@ -37,7 +49,7 @@ class ArknightsModule:
 
         subprocess.Popen(self.game_exe)
         print("Game engine started...")
-        time.sleep(30)
+        time.sleep(360)
         
         import pyautogui
         pyautogui.moveTo(1780, 465, duration = 1) # on 2k screen
@@ -46,14 +58,14 @@ class ArknightsModule:
 
         print("Starting Arknights...")
         keyboard.press('A')
-        time.sleep(45)
+        time.sleep(120)
 
         keyboard.press('Z')
-        time.sleep(30)
+        time.sleep(60)
 
         print("Logging into Arknights...")
         keyboard.press('5')
-        time.sleep(60)
+        time.sleep(120)
 
         return time.time() - st
 
@@ -359,6 +371,12 @@ class ArknightsModule:
 
         keyboard.press('T')
         time.sleep(self.BUFFER_TIME)
+        
+        # getting operator trust points
+        keyboard.press('6')
+        time.sleep(self.BUFFER_SHORT)
+        keyboard.press('7')
+        time.sleep(self.BUFFER_TIME)
 
         print("Exiting base...")
         keyboard.press('K')
@@ -412,40 +430,24 @@ class ArknightsModule:
         min = time[1]
         sec = time[2]
 
-        # Run first game now
-        if self.initial_run == True:
-            self.initial_run = False
-            self.ran_day = today
-            return True
+        # # Run first game now
+        # if self.initial_run == True:
+        #     self.initial_run = False
+        #     self.ran_day = today
+        #     return True
 
-        if hour == 20 and today != self.ran_day: # 8:00PM
+        if hour == EXECUTION_TIME and today != self.ran_day: # 8:00PM
             self.ran_day = today
             return True
         else:
             return False
 
-# last key: X
-if __name__ == "__main__":
 
-    EXECUTION_TIME = 20
-    RELOAD_BASE = True
-    GRIND_RESOURCES = False
-
-    print(f'========== CONFIGURATIONS ==========\nExecution time: {EXECUTION_TIME}:00 daily\nBase reload: {RELOAD_BASE}\nResource grind: {GRIND_RESOURCES}')
-    i = input("\nRun arknights? [y/n]")
-    if i.lower() != 'y': exit()
-    
-    while True:
-
-        with open("stamina.json") as rf: st = json.load(rf)["stamina"]
-
-        # initializing program
-        arknights = ArknightsModule(st)
-        print('Program starting in 3 sec...')
-        time.sleep(arknights.BUFFER_TIME - 2)
+    def run_arknights(self):
+        with open("arknights-stamina.json") as rf: 
+            self.stamina = json.load(rf)["stamina"]
 
         if arknights.runtime_trigger() == True:
-            pass
 
             total_time = 0
             if arknights.validate_game_activity() == False:
@@ -458,10 +460,45 @@ if __name__ == "__main__":
                 arknights.exit_game()
 
             print(f"\nArknights Module Execution Complete...\nTotal Time Taken: [{round(total_time, 2)}]")
-            
+
+            return True
+        return False
+
+# last key: X
+if __name__ == "__main__":
+
+    print(f'========== CONFIGURATIONS ==========')
+    print(f'Execution time: {EXECUTION_TIME}:00 daily')
+    print(f'Run Arknights: {RUN_ARKNIGHTS} (default)')
+    print(f'Run Konosuba: {RUN_KONOSUBA}')
+    print(f'Run Honkai: {RUN_HONKAI}')
+
+    i = input("\nRun program? [y/n]")
+    if i.lower() != 'y': exit()
+    
+    while True:
+
+        # DRIVER CODE ===================================================================================================================================
+
+        arknights = ArknightsModule()
+        trigger = arknights.run_arknights()
+
+        if RUN_KONOSUBA and trigger:
+            time.sleep(5)
+            konosuba = KonosubaModule()
+            konosuba.run_konosuba()
+
+        if RUN_HONKAI and trigger:
+            time.sleep(5)
+            honkai = honkaiModule()
+            honkai.run_honkai()  
+
+        if trigger:
             print("Sleeping for 3 hour...")
             time.sleep(3600 * 3)
 
+
+        # RUN TRIGGER SETTINGS ===================================================================================================================================
         current_time = datetime.now().strftime("%m/%d/%Y-%H:%M:%S")
         try:
             if arknights.ran_day == -1:
@@ -474,10 +511,10 @@ if __name__ == "__main__":
                 if hour >= EXECUTION_TIME: today += 1
 
                 td = datetime.now().replace(day=today, hour=EXECUTION_TIME, minute=0, second=0) - datetime.now()
-                print(f"[{current_time}] Time left till next run: {td}")
+                print(f"[{current_time}] Time left till next run: {td}", end='\r')
             else:
                 td = datetime.now().replace(day=arknights.ran_day + 1, hour=EXECUTION_TIME, minute=0, second=0) - datetime.now()
-                print(f"[{current_time}] Time left till next run: {td}")
+                print(f"[{current_time}] Time left till next run: {td}", end='\r')
         except:
             print(f"[{current_time}] error generating time for the next run...")
         time.sleep(random.randint(60, 120))
